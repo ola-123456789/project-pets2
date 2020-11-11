@@ -1,0 +1,36 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.header {
+    padding: 20px 0;
+    /* margin: 10px; */
+    background-color: #303F9F;
+}
+.a-style {
+    color: white;
+    margin: 5px;
+    padding-left: 20px;
+}
+.search-div {
+    margin: 10px auto;
+    width: 50%;
+}
+.search-style {
+    width: 70%;
+    border-radius: 5px;
+}
+.news-feed {
+    display: flex;
+}
+.newsfeed-style {
+    margin: 10px;
+}
+.image-style {
+    width: 80%;
+    justify-content: center;
+    object-fit: cover;
+}
+.author-info {
+    color: turquoise;
+}
