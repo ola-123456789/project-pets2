@@ -39,15 +39,15 @@ const appendStatements = (statement) => {
     for (let i = 0; i < statementsArray.length; i++) {
         const statementTemplate = `
         <div class="newsfeed-style">
-        <p>${statement.title}</p>
-        <img src= ${statement.img}>
-        <p>${statement.description}</p>
-        <p class="author-info">${statement.contactPerson}</p>
-        <p class="author-info">${statement.contactPersonNumber}</p>
+        <p>${statement[i].title}</p>
+        <img src= ${statement[i].img} alt="Dog images" class="image-style">
+        <p>${statement[i].description}</p>
+        <p class="author-info">${statement[i].contactPerson}</p>
+        <p class="author-info">${statement[i].contactPersonNumber}</p>
     </div>`
-    newsFeed.innerHTML(statementTemplate);
+    newsFeed.innerHTML += statementTemplate;
     }
 }
 
-
+appendStatements (statementsArray);
 
