@@ -3,14 +3,14 @@ body {
     margin: 0px;
 }
 .header {
-    padding: 20px 0;
+    padding: 20px 0 !important;
     /* margin: 10px; */
     background-color: #303F9F;
 }
 .a-style {
     color: white;
-    margin: 5px;
-    padding-left: 20px;
+    margin: 5px !important;
+    padding-left: 20px !important;
     text-decoration: none;
 }
 .search-div {
