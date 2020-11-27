@@ -7,7 +7,7 @@ body {
     /* margin: 10px; */
     background-color: #303F9F;
 }
-.a-style {
+.nav-style a {
     color: white;
     margin: 5px !important;
     padding-left: 20px !important;
@@ -23,14 +23,18 @@ body {
 }
 .news-feed {
     display: flex;
+    flex-wrap: wrap;
 }
 .newsfeed-style {
     margin: 10px;
+    border: thistle solid;
 }
 .image-style {
-    width: 80%;
+    /* width: 80%; */
     justify-content: center;
     object-fit: cover;
+    width: 300px;
+    height: 300px;
 }
 .author-info {
     color: turquoise;
