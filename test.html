@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div>
+    <button type="button" class="deleteBtn">DELETE</button>
+    <button type="button" class="deleteBtn">DELETE 2</button>
+    <button type="button" class="deleteBtn">DELETE 3</button>
+</div>
+
+<button onclick="myFunction()">Try it</button>
+
+<p><strong>Note:</strong> The querySelectorAll() method is not supported in Internet Explorer 8 and earlier versions.</p>
+
+<script>
+function myFunction() {
+  var x, i;
+  x = document.querySelectorAll(".deleteBtn");
+  console.log(x);
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "red";
+  }
+}
+</script>
+
+</body>
+</html>

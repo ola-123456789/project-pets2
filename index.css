@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-.newsfeed-style {
+.newsFeed-style {
     margin: 10px;
     border: thistle solid;
 }
@@ -38,4 +38,7 @@ body {
 }
 .author-info {
     color: turquoise;
+}
+.span-class {
+    margin: 70%;
 }

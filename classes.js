@@ -1,7 +1,7 @@
 class Statement {
-    constructor (title, contactPerson, contactPersonNumber, adress, description, pet, price, img) {
+    constructor (title, contactPersonName, contactPersonNumber, adress, description, pet, price, img) {
         this.title = title;
-        this.contactPerson = contactPerson;
+        this.contactPersonName = contactPersonName;
         this.contactPersonNumber = contactPersonNumber;
         this. adress = adress;
         this. description = description;
@@ -24,3 +24,10 @@ class Cat extends Pets {
         super(name, age);
     }
 }
+
+// let statements;
+// if(JSON.parse(localStorage.getItem('statements')) === null) {
+//     statements = [];
+// }else {
+//     statements = JSON.parse(localStorage.getItem('statements'))
+// } roca localstorage-dan mogvaqvs
